@@ -21,19 +21,34 @@
 </head>
 <body>
 <header role="banner">
-    <nav role="navigation">
-    <ul>
-        <li><a href="articles.htm" title="Articles">Articles</a></li>
-        <li><a href="courses.htm" title="Courses">Courses</a></li>
-        <li><a href="speaking.htm" title="speaking">Speaking</a></li>
-        <li><a href="resources.htm" title="resources">Resources</a></li>
-        <li><a href="about.htm" title="learn more about me">About</a></li>
-        </ul>
-        <form action="http://simplerpimate.com" method="post" class="search-form">
-        <label for="search">Search Simple Primate</label>
-        <input type="search" placeholder="search" title="Search" class="q" name="search" id="search">
-        <input type="submit" class="submit" value="Go" name="submit">
-        </form>
+    <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+	    <li class="name"></li>
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+   </ul>
+    <section class="top-bar-section">
+	    <ul class="left">
+	        <li><a href="articles.htm" title="Articles">Articles</a></li>
+	        <li><a href="courses.htm" title="Courses">Courses</a></li>
+	        <li><a href="speaking.htm" title="speaking">Speaking</a></li>
+	        <li><a href="resources.htm" title="resources">Resources</a></li>
+	        <li><a href="about.htm" title="learn more about me">About</a></li>
+		</ul>
+        <ul class="right">
+		     <form action="http://simplerpimate.com" method="post" class="search-form">
+		     	<li class="has-form">
+		     		<div class="row collapse">
+				        <div class="large-8 small-9 columns">
+					        <input type="search" placeholder="search" title="Search" class="q" name="search" id="search">
+				    	</div>
+				    	<div class="large-4 small-3 columns">
+					     	<input type="submit" class="alert button expand" value="Go" name="submit">
+					    </div> 	
+				    </div> 	
+			    </li>	
+        	</form>
+		</ul>	
+      </section>	
     </nav>
 <hgroup>
     <h1>Simple<span class="primate">Primate</span></h1>
