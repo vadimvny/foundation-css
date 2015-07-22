@@ -22,6 +22,7 @@
     <![endif]-->
 </head>
 <body>
+<div class="row">    
 <header role="banner">
     <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">
@@ -57,47 +58,60 @@
         <h2>Developing web sites with a pipe wrench</h2>
     </hgroup>
 </header>
+<div class="row">
+<div class="large-8 columns right">    
 <article role="main" class="main">
     <h3 class="articleHeader">A little about me</h3>
     <p>Hi! I’m so glad you’ve stopped by! I’m James Williamson, a Senior Author at lynda.com. I’m passionate about standards-driven web design and teaching folks how to become better web designers.<br>
         While you’re here take a look at my courses section, which gives information and resources on my lynda.com courses, and check out the articles, news, and resources I’ve written as well. <br>
         Feel free to drop me a line below!</p>
-    <h4>Contact me</h4>
-    <form id="frmContact" action="http://www.simpleprimate.com" method="post" class="custom">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" tabindex="10" placeholder="name" required>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" tabindex="20" placeholder="valid email" required>
-        <label for="website">Personal Site:</label>
-        <input type="url" name="website" id="website" tabindex="25" placeholder="website url">
-        <label for="subject">Subject</label>
-        <input type="text" name="subject" id="subject" tabindex="30" placeholder="subject" required>
-        <h4>I'd like to speak to you about:</h4>
-        <label for="speaking">
-            <input type="radio" name="intent" value="speaking" id="speaking" tabindex="40">
-            Speaking engagement</label>
-        <label for="course">
-            <input type="radio" name="intent" value="course" id="course" tabindex="50">
-            lynda.com course</label>
-        <label for="design">
-            <input type="radio" name="intent" value="design" id="design" tabindex="60">
-            web design</label>
-        <label for="weather">
-            <input type="radio" name="intent" value="weather" id="weather" tabindex="70">
-            the weather</label>
-        <label for="discourse">Have your say:</label>
-        <textarea id="discourse" name="discourse" tabindex="80" rows="5" placeholder="your thoughts go here">
-                 </textarea>
-        <input type="submit" name="submit" id="submit" value="Sounds Great" tabindex="90" class="button">
-    </form>
+    <div class="row">
+        <h4>Contact me</h4>
+        <form id="frmContact" action="http://www.simpleprimate.com" method="post" class="custom">
+            <div class="large-6 columns">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" tabindex="10" placeholder="name" required>
+            </div>
+            <div class="large-6 columns">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" tabindex="20" placeholder="valid email" required>
+             </div>
+            <div class="large-6 columns">
+            <label for="website">Personal Site:</label>
+            <input type="url" name="website" id="website" tabindex="25" placeholder="website url">
+            </div>
+            <div class="large-6 columns">    
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" tabindex="30" placeholder="subject" required>
+            </div>
+            <h4>I'd like to speak to you about:</h4>
+            <label for="speaking">
+                <input type="radio" name="intent" value="speaking" id="speaking" tabindex="40">
+                Speaking engagement</label>
+            <label for="course">
+                <input type="radio" name="intent" value="course" id="course" tabindex="50">
+                lynda.com course</label>
+            <label for="design">
+                <input type="radio" name="intent" value="design" id="design" tabindex="60">
+                web design</label>
+            <label for="weather">
+                <input type="radio" name="intent" value="weather" id="weather" tabindex="70">
+                the weather</label>
+            <label for="discourse">Have your say:</label>
+            <textarea id="discourse" name="discourse" tabindex="80" rows="5" placeholder="your thoughts go here">
+                     </textarea>
+            <input type="submit" name="submit" id="submit" value="Sounds Great" tabindex="90" class="button">
+        </form>
+    </div>
 </article>
-<aside role="complementary">
+</div>
+<aside role="complementary" class="large-4 columns left">
     <section class="intro">
         <p>Simple Primate is the online home of James Williamson, web crafter and lynda.com Senior Author. Here you’ll find info about my courses, thoughts on all things web, and resources that I find helpful. <span class="call">Welcome</span></p>
-        <ul class="social">
+<!--         <ul class="social">
             <li><a href="https://twitter.com/jameswillweb" title="Follow me on Twitter" class="twitter">Follow me on Twitter</a></li>
             <li><a href="http://www.simpleprimate.com/feed/" title="RSS Feed" class="rss">Subscribe to my RSS Feed</a></li>
-        </ul>
+        </ul> -->
     </section>
     <section class="newsletter">
         <h3>Our Newsletter</h3>
@@ -105,6 +119,7 @@
         <p> <a href="#newsletter" class="small button right">Sign up!</a> </p>
     </section>
 </aside>
+</div>
 <footer role="contentinfo">
     <p class="two columns">&copy; 2015 James Williamson</p>
     <nav role="navigation">
@@ -122,6 +137,7 @@
         <input type="submit" class="submit secondary tiny button radius" value="Go" name="submit">
     </form>
 </footer>
+</div>
     <script src="_scripts/jquery.js"></script>
     <script src="_scripts/foundation.js"></script>
     <!-- Initialize JS Plugins -->
