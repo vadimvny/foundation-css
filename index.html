@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="_css/foundation.css">
     <link rel="stylesheet" href="_css/custom.css">
     <script src="_scripts/modernizr.js"></script>
+    
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -114,8 +115,12 @@
 </footer>
     <!-- Included JS Files (Compressed) -->
     <script src="_scripts/jquery.js"></script>
-    <script src="_scripts/foundation.min.js"></script>
+  	<script src="_scripts/foundation.js"></script>
     <!-- Initialize JS Plugins -->
-    <script src="_scripts/app.js"></script>
+   <script src="_scripts/foundation.topbar.js"></script>
+    <script>
+    $(document).foundation();
+  	</script>
+
 </body>
 </html>
